@@ -10,4 +10,4 @@ The second option is not efficient because while guest will not have to try to e
 
 With option three no guest should ever be trying to enter the room unless it is available, and none of the guests will ever have to worry about checking if the room is available: they will be directly notified when it is their turn to enter the room. 
 
-This can best be implemented using the CLHLock discussed in the textbook.
+This can best be implemented using the CLHLock Queue Lock discussed in the textbook.
